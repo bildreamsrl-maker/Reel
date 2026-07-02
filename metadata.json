@@ -1,0 +1,6 @@
+{
+  "name": "Instagram Reels Landing Page",
+  "description": "Una landing page interattiva in stile Instagram per caricare e scorrere 4 video verticali (Reels) con interazioni di like, commenti, condivisioni e personalizzazione totale dei contenuti.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

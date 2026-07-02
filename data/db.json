@@ -1,0 +1,157 @@
+{
+  "reels": [
+    {
+      "id": 1,
+      "videoUrl": "/uploads/video-1782730960617-773636027.mp4",
+      "username": "bildream.it",
+      "userAvatar": "https://i.ibb.co/BVBhMt98/SFONDO-BLU.jpg",
+      "caption": "Non",
+      "likes": 1240,
+      "commentsCount": 84,
+      "sharesCount": 320,
+      "isLiked": false,
+      "isBookmarked": false,
+      "commentsList": [
+        {
+          "id": "c1",
+          "username": "neon_rider",
+          "userAvatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100&auto=format&fit=crop&q=80",
+          "text": "Incredibile questo video! Che luci pazzesche 🤩",
+          "timestamp": "2g",
+          "likes": 14
+        },
+        {
+          "id": "c2",
+          "username": "cyber_girl",
+          "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&auto=format&fit=crop&q=80",
+          "text": "Uso sempre il viola e blu nei miei design! 💜💙",
+          "timestamp": "1g",
+          "likes": 8
+        },
+        {
+          "id": "c3",
+          "username": "art_vibes",
+          "userAvatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&auto=format&fit=crop&q=80",
+          "text": "Bellissima atmosfera, complimenti!",
+          "timestamp": "12h",
+          "likes": 3
+        }
+      ],
+      "isUploadedByUser": true
+    },
+    {
+      "id": 2,
+      "videoUrl": "/uploads/video-1782838116229-824853052.mp4",
+      "username": "bildream.it",
+      "userAvatar": "https://i.ibb.co/BVBhMt98/SFONDO-BLU.jpg",
+      "caption": "Lasciati trasportare dal ritmo sotto le luci della città ⚡️ Nuova coreografia fuori ora! Ditemi cosa ne pensate nei commenti 👇 #dance #neonlights #streetdance #freestyle",
+      "likes": 3820,
+      "commentsCount": 142,
+      "sharesCount": 890,
+      "isLiked": false,
+      "isBookmarked": false,
+      "quizOptions": [
+        "Modern Dance",
+        "Hip Hop / Freestyle",
+        "Breakdance",
+        "Teletonica"
+      ],
+      "commentsList": [
+        {
+          "id": "c4",
+          "username": "dance_lover",
+          "userAvatar": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?w=100&auto=format&fit=crop&q=80",
+          "text": "Pazzesco il movimento a 0:12! Spettacolo 🔥",
+          "timestamp": "3g",
+          "likes": 22
+        },
+        {
+          "id": "c5",
+          "username": "street_flow",
+          "userAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
+          "text": "Le luci al neon sul set rendono tutto magico.",
+          "timestamp": "2g",
+          "likes": 12
+        }
+      ],
+      "isUploadedByUser": true,
+      "quizAnswer": "Teletonica"
+    },
+    {
+      "id": 3,
+      "videoUrl": "/uploads/video-1782838133105-936590175.mp4",
+      "username": "bildream.it",
+      "userAvatar": "https://i.ibb.co/BVBhMt98/SFONDO-BLU.jpg",
+      "caption": "Un respiro profondo tra i colori della primavera 🌼 C'è qualcosa di magico nel modo in cui il vento accarezza questi petali dorati. #naturelovers #relax #springvibes #cinematic #slowmotion",
+      "likes": 950,
+      "commentsCount": 31,
+      "sharesCount": 95,
+      "isLiked": false,
+      "isBookmarked": false,
+      "quizOptions": [
+        "Girasoli",
+        "Margherite Gialle",
+        "Denti di Leone",
+        "Tulipani"
+      ],
+      "commentsList": [
+        {
+          "id": "c6",
+          "username": "nature_lens",
+          "userAvatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80",
+          "text": "Che pace trasmette questo reel... adoro la fotografia biologica 💚",
+          "timestamp": "4g",
+          "likes": 9
+        },
+        {
+          "id": "c7",
+          "username": "green_soul",
+          "userAvatar": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=100&auto=format&fit=crop&q=80",
+          "text": "I fiori gialli sono la cura per lo spirito 🌼",
+          "timestamp": "3g",
+          "likes": 5
+        }
+      ],
+      "quizAnswer": "Tulipani",
+      "isUploadedByUser": true
+    },
+    {
+      "id": 4,
+      "videoUrl": "/uploads/video-1782838157023-714300220.mp4",
+      "username": "bildream.it",
+      "userAvatar": "https://i.ibb.co/BVBhMt98/SFONDO-BLU.jpg",
+      "caption": "Cosa aspetti? Il tuo momento è adesso. Sblocca il tuo potenziale e candidati compilando il modulo qui sotto! 🚀 #business #success #growth #motivation #leads",
+      "likes": 5600,
+      "commentsCount": 290,
+      "sharesCount": 1250,
+      "isLiked": false,
+      "isBookmarked": false,
+      "commentsList": [
+        {
+          "id": "c8",
+          "username": "success_mindset",
+          "userAvatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80",
+          "text": "Candidato subito! Non vedo l'ora di parlarne 📈",
+          "timestamp": "5g",
+          "likes": 45
+        },
+        {
+          "id": "c9",
+          "username": "growth_hacker",
+          "userAvatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop&q=80",
+          "text": "Ottima opportunità strategica, consigliatissimo.",
+          "timestamp": "4g",
+          "likes": 18
+        }
+      ],
+      "isUploadedByUser": true
+    }
+  ],
+  "leads": [],
+  "formConfig": {
+    "title": "Prenota una Consulenza Gratuita",
+    "subtitle": "Hai completato la visione! Compila il modulo di candidatura qui sotto per essere ricontattato da un nostro consulente strategico.",
+    "buttonText": "Invia la mia Candidatura",
+    "autoUnlock": true
+  }
+}
