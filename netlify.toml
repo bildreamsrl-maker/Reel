@@ -19,10 +19,23 @@
   [headers.values]
     Cache-Control = "public, max-age=86400, must-revalidate"
 
-# Single-page-app fallback: any route that is not a real static file
-# (e.g. deep links) serves index.html. Existing files such as the reel
-# videos under /uploads and the bundles under /assets are served directly
-# and are not affected by this rule.
+# Serve the reel videos and hashed bundles directly. These files always exist
+# in the published output, so these passthrough rules guarantee the requests
+# are answered with the real static files and can never be captured by the
+# single-page-app fallback below.
+[[redirects]]
+  from = "/uploads/*"
+  to = "/uploads/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/assets/*"
+  to = "/assets/:splat"
+  status = 200
+
+# Single-page-app fallback: any remaining route that is not a real static file
+# (e.g. deep links, page refreshes) serves index.html so the app boots and
+# renders the correct reels client-side.
 [[redirects]]
   from = "/*"
   to = "/index.html"
