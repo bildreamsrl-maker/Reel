@@ -3,7 +3,7 @@ import { ReelVideo } from "./types";
 export const INITIAL_REELS: ReelVideo[] = [
   {
     id: 1,
-    videoUrl: "/uploads/video-1782730960617-773636027.mp4",
+    videoUrl: "/videos/primo.mp4",
     username: "bildream.it",
     userAvatar: "https://i.ibb.co/BVBhMt98/SFONDO-BLU.jpg",
     caption: "Riflessi al neon e vibrazioni notturne ✨ Qual è la vostra combinazione di colori preferita? 💜💙 #neonart #aesthetic #vibes #cyberpunk",
@@ -43,7 +43,7 @@ export const INITIAL_REELS: ReelVideo[] = [
   },
   {
     id: 2,
-    videoUrl: "/uploads/video-1782838116229-824853052.mp4",
+    videoUrl: "/videos/secondo.mp4",
     username: "bildream.it",
     userAvatar: "https://i.ibb.co/BVBhMt98/SFONDO-BLU.jpg",
     caption: "Lasciati trasportare dal ritmo sotto le luci della città ⚡️ Nuova coreografia fuori ora! Ditemi cosa ne pensate nei commenti 👇 #dance #neonlights #streetdance #freestyle",
@@ -54,8 +54,6 @@ export const INITIAL_REELS: ReelVideo[] = [
     musicArtist: "The Synthwave Band",
     isLiked: false,
     isBookmarked: false,
-    quizQuestion: "Qual è la tua attuale esperienza con i social?",
-    quizOptions: ["Principiante assoluto", "Gestisco già dei profili", "Lavoro già nel settore"],
     commentsList: [
       {
         id: "c2_1",
@@ -85,7 +83,7 @@ export const INITIAL_REELS: ReelVideo[] = [
   },
   {
     id: 3,
-    videoUrl: "/uploads/video-1782838133105-936590175.mp4",
+    videoUrl: "/videos/terzo.mp4",
     username: "bildream.it",
     userAvatar: "https://i.ibb.co/BVBhMt98/SFONDO-BLU.jpg",
     caption: "Un respiro profondo tra i colori della primavera 🌼 C'è qualcosa di magico nel modo in cui il vento accarezza questi petali dorati. #naturelovers #relax #springvibes #cinematic #slowmotion",
@@ -96,8 +94,8 @@ export const INITIAL_REELS: ReelVideo[] = [
     musicArtist: "Acoustic Nature",
     isLiked: false,
     isBookmarked: false,
-    quizQuestion: "Qual è il budget che vorresti investire?",
-    quizOptions: ["Meno di 500€", "Da 500€ a 1500€", "Più di 1500€"],
+    quizQuestion: "Qual è il tuo profilo?",
+    quizOptions: ["Azienda", "Libero professionista", "Negozio", "start-up"],
     commentsList: [
       {
         id: "c3_1",
@@ -119,7 +117,7 @@ export const INITIAL_REELS: ReelVideo[] = [
   },
   {
     id: 4,
-    videoUrl: "/uploads/video-1782838157023-714300220.mp4",
+    videoUrl: "/videos/quarto.mp4",
     username: "bildream.it",
     userAvatar: "https://i.ibb.co/BVBhMt98/SFONDO-BLU.jpg",
     caption: "La forza immensa dell'oceano vista dall'alto 🌊 Un ipnotico infrangersi di onde che rinfresca la mente. Guarda fino alla fine per sentire la potenza del blu. #dronephotography #oceanlife #hypnotic #dji #aerialview",

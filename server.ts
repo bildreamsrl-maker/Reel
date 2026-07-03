@@ -24,7 +24,7 @@ if (!fs.existsSync(UPLOADS_DIR)) {
 const INITIAL_REELS = [
   {
     id: 1,
-    videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+    videoUrl: "/videos/primo.mp4",
     username: "bildream.it",
     userAvatar: "https://i.ibb.co/BVBhMt98/SFONDO-BLU.jpg",
     caption: "Riflessi al neon e vibrazioni notturne ✨ Qual è la vostra combinazione di colori preferita? 💜💙 #neonart #aesthetic #vibes #cyberpunk",
@@ -62,7 +62,7 @@ const INITIAL_REELS = [
   },
   {
     id: 2,
-    videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+    videoUrl: "/videos/secondo.mp4",
     username: "bildream.it",
     userAvatar: "https://i.ibb.co/BVBhMt98/SFONDO-BLU.jpg",
     caption: "Lasciati trasportare dal ritmo sotto le luci della città ⚡️ Nuova coreografia fuori ora! Ditemi cosa ne pensate nei commenti 👇 #dance #neonlights #streetdance #freestyle",
@@ -71,7 +71,6 @@ const INITIAL_REELS = [
     sharesCount: 890,
     isLiked: false,
     isBookmarked: false,
-    quizOptions: ["Modern Dance", "Hip Hop / Freestyle", "Breakdance", "Teletonica"],
     commentsList: [
       {
         id: "c4",
@@ -93,7 +92,7 @@ const INITIAL_REELS = [
   },
   {
     id: 3,
-    videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+    videoUrl: "/videos/terzo.mp4",
     username: "bildream.it",
     userAvatar: "https://i.ibb.co/BVBhMt98/SFONDO-BLU.jpg",
     caption: "Un respiro profondo tra i colori della primavera 🌼 C'è qualcosa di magico nel modo in cui il vento accarezza questi petali dorati. #naturelovers #relax #springvibes #cinematic #slowmotion",
@@ -102,7 +101,7 @@ const INITIAL_REELS = [
     sharesCount: 95,
     isLiked: false,
     isBookmarked: false,
-    quizOptions: ["Girasoli", "Margherite Gialle", "Denti di Leone", "Tulipani"],
+    quizOptions: ["Azienda", "Libero professionista", "Negozio", "start-up"],
     commentsList: [
       {
         id: "c6",
@@ -124,7 +123,7 @@ const INITIAL_REELS = [
   },
   {
     id: 4,
-    videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+    videoUrl: "/videos/quarto.mp4",
     username: "bildream.it",
     userAvatar: "https://i.ibb.co/BVBhMt98/SFONDO-BLU.jpg",
     caption: "Cosa aspetti? Il tuo momento è adesso. Sblocca il tuo potenziale e candidati compilando il modulo qui sotto! 🚀 #business #success #growth #motivation #leads",
