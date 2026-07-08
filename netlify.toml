@@ -1,0 +1,42 @@
+# Netlify configuration for the Reels lead-gen SPA.
+# The app is a static Vite build; the four reel videos live in public/uploads
+# and are copied into dist/uploads at build time, so they are served as
+# ordinary static files at /uploads/<file>.mp4.
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Long-lived, hashed JS/CSS bundles can be cached aggressively.
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# The uploaded reel videos use unique, timestamped filenames, so they are safe
+# to cache for a long time while still allowing revalidation.
+[[headers]]
+  for = "/uploads/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400, must-revalidate"
+
+# Serve the reel videos and hashed bundles directly. These files always exist
+# in the published output, so these passthrough rules guarantee the requests
+# are answered with the real static files and can never be captured by the
+# single-page-app fallback below.
+[[redirects]]
+  from = "/uploads/*"
+  to = "/uploads/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/assets/*"
+  to = "/assets/:splat"
+  status = 200
+
+# Single-page-app fallback: any remaining route that is not a real static file
+# (e.g. deep links, page refreshes) serves index.html so the app boots and
+# renders the correct reels client-side.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

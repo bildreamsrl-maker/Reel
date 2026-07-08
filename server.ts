@@ -9,7 +9,7 @@ const PORT = 3000;
 
 // Resolve paths
 const DATA_DIR = path.join(process.cwd(), "data");
-const UPLOADS_DIR = path.join(process.cwd(), "uploads");
+const UPLOADS_DIR = path.join(process.cwd(), "public", "uploads");
 const DB_FILE = path.join(DATA_DIR, "db.json");
 
 // Ensure directories exist
